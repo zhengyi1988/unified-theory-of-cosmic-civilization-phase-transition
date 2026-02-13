@@ -1,7 +1,7 @@
 # Unified Theory of Cosmic Civilization Phase Transition
 
-**Author**: Zheng Yi (郑艺)  
-**Independent Theorist**  
+**Author**: Zheng Yi (郑艺)
+**Independent Theorist**
 **Date**: 2026-02-13
 
 ---
@@ -15,66 +15,54 @@ This paper proposes a four-dimensional complete axiom system, constructing a sel
 
 ### 1.1 Main Equation of Civilization Evolution
 The core dynamic equation describing the evolution of civilization complexity is:
-$$
+
+\[
 \frac{dC}{dt} = (E+I) + \lambda EI - \delta C^2 - \kappa \cdot \nabla^2 C
-$$
-- $C$: Total complexity of civilization
-- $E$: Energy input
-- $I$: Information and organization degree
-- $\lambda$: Cooperative coupling factor
-- $\delta$: Entropy increase and internal consumption coefficient
-- $\kappa \nabla^2 C$: Spatial diffusion cost
+\]
 
-### 1.2 Light-Speed Locked Coupling Factor
-The coupling factor $\lambda$ is constrained by the cosmic speed limit:
-$$
-\lambda = \lambda_0 \exp\left(-\frac{D}{c \cdot \tau}\right)
-$$
-- $D$: Physical distance
-- $c$: Speed of light in vacuum (cosmic upper limit)
-- $\tau$: Decision-making and response delay
+- \( C \): Total complexity of civilization
+- \( E \): Energy input
+- \( I \): Information and organization degree
+- \( \lambda \): Coupling coefficient of energy-information synergy
+- \( \delta \): Self-decay coefficient of complexity
+- \( \kappa \): Diffusion coefficient of complexity
+- \( \nabla^2 \): Laplacian operator, representing spatial diffusion of civilization
 
-### 1.3 Phase Transition Criterion for Civilization's Life and Death
-The critical parameter $\Phi$ determines the phase of civilization:
-$$
-\Phi = \frac{\lambda EI}{\delta C}
-$$
-- $\Phi > 1$: Supercritical phase → Civilization ascension, singularity breakthrough
-- $\Phi = 1$: Critical phase → Stagnation, bottleneck
-- $\Phi < 1$: Subcritical phase → Collapse, extinction, restart
+### 1.2 Phase Transition Condition
+A civilization undergoes a phase transition when the complexity \( C \) crosses a critical threshold \( C_c \):
 
-### 1.4 Civilization Pulse (Intrinsic Oscillation)
-Civilizations near the critical point exhibit periodic pulsations:
-$$
-P(t) = \sin\left( \frac{\lambda EI}{\delta} \cdot t \right)
-$$
-This represents the unified "breathing rhythm" of all civilizations.
+\[
+C(t) \geq C_c \implies \text{Phase Transition}
+\]
+
+where \( C_c \) is determined by the local cosmic environment and the civilization's internal structure.
+
+### 1.3 Existence Constraint
+For a civilization to maintain stable existence, the net growth rate of complexity must be non-negative:
+
+\[
+\frac{dC}{dt} \geq 0
+\]
 
 ---
 
-## 2. Key Inferences
+## 2. Key Results
 
-### 2.1 Ultimate Solution to the Fermi Paradox
-Interstellar distances cause $\lambda \to 0$, locking most civilizations within their parent star systems.
+### 2.1 Fixed Points
+The system has two fixed points:
+1.  **Collapse state**: \( C^* = 0 \)
+2.  **Stable state**: \( C^* = \frac{\lambda EI - (E+I)}{\delta} \) (when \( \lambda EI > E+I \))
 
-### 2.2 Current State of Human Civilization
-$$
-\Phi \approx 1.00 \ (\pm 0.02)
-$$
-Humanity is at a critical point on the edge of life and death.
+### 2.2 Periodic Pulsation
+Under certain conditions, the system can exhibit periodic oscillations in complexity, described by:
 
-### 2.3 Prediction of the Ascension Singularity
-Starting from 2026, under the optimal path, the time window for the human civilization ascension singularity is **2032 ± 3 months**.
+\[
+C(t) = C_0 + A \sin(\omega t + \phi)
+\]
 
-### 2.4 Only Transition Path
-- **Raise $\lambda$**: Strengthen connection, consensus, trust, high-speed information flow, and AI-assisted decision-making.
-- **Lower $\delta$**: Reduce internal friction, conflict, power alienation, institutional redundancy, and system entropy increase.
+where \( A \) is the amplitude, \( \omega \) is the frequency, and \( \phi \) is the phase shift.
 
 ---
 
 ## 3. Conclusion
-This theory provides a self-consistent, logically closed framework for understanding the evolution of cosmic civilizations. It is the ultimate unified theory describing the origin, growth, and fate of all intelligent life in the universe.
-
----
-
-**License**: This work is licensed under the Creative Commons Attribution 4.0 International License.
+This theory provides a unified framework for understanding the evolution and phase transitions of cosmic civilizations, offering testable predictions for future astronomical and sociological research.
